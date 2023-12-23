@@ -1,61 +1,3 @@
-[10:04 pm, 02/07/2023] Ritika ME IITP: #include <stdio.h>
-#include <string.h>
-#include <windows.h>
-
-// Structure to store the
-// user details (Signup details)
-struct details
-{
-	char uname[100];
-	int age;
-	char password[100];
-	char email[100];
-	char mobile[10];
-};
-
-// Structure to store the
-// hotels and their food details
-struct hotels
-{
-	char hotel[100];
-	char first_food[20];
-	char second_food[20];
-	char third_food[20];
-	char fourth_food[25];
-	int first, second, third, fourth;
-};
-
-struct hotels m[5];
-struct details s[100];
-
-// Function to get the
-// input for new account.
-void signup();
-
-// Function to check whether
-// the account is already
-// existed or not
-void account_check();
-
-// Function to validate
-// all the input fields.
-int validate…
-[10:07 pm, 02/07/2023] Ritika ME IITP: Ishma code run krao jo maine bheja
-[10:07 pm, 02/07/2023] Ritika ME IITP: Or btao kuch error throw kr rha kya?
-[10:37 pm, 02/07/2023] Ritika ME IITP: Ye try kro
-[10:40 pm, 02/07/2023] Ishma: Error aa raha hai
-[10:40 pm, 02/07/2023] Ritika ME IITP: Aree yaar
-[10:40 pm, 02/07/2023] Ritika ME IITP: Tum log me. Error kyun a rha
-[10:40 pm, 02/07/2023] Sasya CS IITP: mere mai bhe error aa rha hai
-[10:43 pm, 02/07/2023] +91 97712 61400: Ig copy krte time syd thora kvi kbr text alignment n all change honta
-[10:43 pm, 02/07/2023] Ritika ME IITP: Yess
-[10:43 pm, 02/07/2023] Ritika ME IITP: To thoda dekhna pdega
-[10:43 pm, 02/07/2023] +91 97712 61400: Hmm
-[10:58 pm, 02/07/2023] +91 97712 61400: Now this code will work on everyone's laptop ig
-[11:02 pm, 02/07/2023] Ritika ME IITP: No bro
-[11:02 pm, 02/07/2023] Ritika ME IITP: It still not working in sasya's laptop
-[11:05 pm, 02/07/2023] +91 97712 61400: Arey
-[11:09 pm, 02/07/2023] +91 97712 61400: // C program to implement the Food Ordering System
 
 #include <stdio.h>
 #include <string.h>
@@ -118,7 +60,6 @@ int temp_age, total = 0, food_choice, n;
 int hotel_choice, search_choice, confirm;
 int ch, food, hotel_id;
 
-// Boilerplate Code for the Food Ordering System
 
 int main()
 {
